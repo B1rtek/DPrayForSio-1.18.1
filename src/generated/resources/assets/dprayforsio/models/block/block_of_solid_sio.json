@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "dprayforsio:block/block_of_solid_sio"
+  }
+}

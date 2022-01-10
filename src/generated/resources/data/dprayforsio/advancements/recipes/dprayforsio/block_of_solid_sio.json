@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "dprayforsio:block_of_solid_sio"
+    ]
+  },
+  "criteria": {
+    "has_flex": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          null
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "dprayforsio:block_of_solid_sio"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_flex",
+      "has_the_recipe"
+    ]
+  ]
+}
