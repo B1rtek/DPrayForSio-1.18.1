@@ -23,6 +23,8 @@ public class DataGenerators {
             generator.addProvider(new PFSBlockStates(generator, event.getExistingFileHelper()));
             generator.addProvider(new PFSItemModels(generator, event.getExistingFileHelper()));
             generator.addProvider(new PFSLanguageProvider(generator, "en_us"));
+            generator.addProvider(new PFSLanguageProvider(generator, "pl_pl"));
+            generator.addProvider(new PFSLanguageProvider(generator, "fr_fr"));
         }
     }
 }
